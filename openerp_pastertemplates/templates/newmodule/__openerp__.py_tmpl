@@ -12,7 +12,7 @@
          'base',
      ],
     'init_xml': [],
-    'update_xml': []
+    'update_xml': [],
     'demo_xml': [],
     'active': False,
     'installable': True,
