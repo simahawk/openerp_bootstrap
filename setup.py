@@ -14,13 +14,13 @@ setup(name='openerp_pastertemplates',
       author_email='simahawk@gmail.com',
       url='',
       license='',
-      packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
+      packages=find_packages(),
       include_package_data=True,
       zip_safe=True,
       install_requires=[
           'setuptools',
           'PasteScript',
-          'ZopeSkel',
+          'Cheetah',
            # -*- Extra requirements: -*-
       ],
 

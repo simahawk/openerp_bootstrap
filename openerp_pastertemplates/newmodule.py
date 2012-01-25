@@ -1,6 +1,6 @@
 from paste.script import templates
-from templer.core.base import get_var
-from templer.core.vars import var
+from paste.script.templates import var
+
 
 class NewModule(templates.Template):
 
