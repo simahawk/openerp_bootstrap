@@ -3,7 +3,7 @@ Introduction
 
 Tired of copy&paste and find&replace for creating new OpenERP modules?
 
-This module adds Paster templates for bootstrapping your modules.
+This module adds Paste_ templates for bootstrapping your modules.
 
 Install
 =======
@@ -29,3 +29,6 @@ To create your module run::
     paster create -t openerp_newmodule
 
 and follow the instructions step by step.
+
+
+.. _Paste: http://pythonpaste.org/script/

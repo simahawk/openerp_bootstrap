@@ -1,13 +1,16 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.1'
+version = '1.0a1'
+
+def get_long_desc():
+    toread = ['README.rst','HISTORY.txt']
+    return '\n\n'.join([open(x).read() for x in toread])
 
 setup(name='openerp_pastertemplates',
       version=version,
       description="Paster template for creating new OpenERP modules",
-      long_description="""\
-""",
+      long_description=get_long_desc(),
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       keywords='OpenERP paster',
       author='Simone Orsi',
