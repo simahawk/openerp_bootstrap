@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '1.0a2'
+version = '1.0a3'
 
 def get_long_desc():
     toread = ['README.rst','HISTORY.txt']

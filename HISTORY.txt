@@ -1,0 +1,18 @@
+CHANGELOG
+=========
+
+1.0a3
+-----
+
+- fix README.rst
+- added missing HISTORY.txt
+
+1.0a2
+-----
+
+- updated docs
+
+1.0a1
+-----
+
+- 1st release
