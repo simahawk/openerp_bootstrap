@@ -19,4 +19,17 @@ class NewModule(templates.Template):
         var('author_email', 'Author email'),
         var('category', 'Category'),
         var('website', 'Website'),
+        var('depends', 'Dependencies [space-separated module names]',default=''),
+        var('is_web', 'Is web addon? [yes/no]', default='no'),    
     ]
+
+    def pre(self, command, output_dir, vars):
+        """
+        Called before template is applied.
+        """
+        # import pdb;pdb.set_trace()
+        depends = vars['depends'].split(' ')
+        vars['is_web'] = vars['is_web'] == 'yes' and True or False
+        if vars['is_web'] and not 'web' in depends:
+            depends.append('web')
+        vars['depends'] = [x for x in depends if x]

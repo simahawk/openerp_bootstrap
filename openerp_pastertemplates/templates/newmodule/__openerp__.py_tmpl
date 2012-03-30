@@ -8,13 +8,22 @@
     'author': '${author} (${author_email})',
     'website': '${website}',
     'license': 'AGPL-3',
-    'depends': [
-         'base',
-     ],
+    'depends': ${depends},
     'init_xml': [],
     'update_xml': [],
     'demo_xml': [],
-    'active': False,
+    'active': True,
     'installable': True,
+    #if $is_web
+    'web':True,
+    'css': [
+        'static/css/'
+    ]
+    'js': [
+        'static/js/'
+    ]
+    #end if
+    }
+
 }
 
