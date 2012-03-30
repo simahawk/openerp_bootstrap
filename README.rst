@@ -28,4 +28,4 @@ To create your module run::
 
     paster create -t openerp_newmodule
 
-and follow the instrunctions step by step.
+and follow the instructions step by step.
