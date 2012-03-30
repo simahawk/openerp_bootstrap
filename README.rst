@@ -8,11 +8,12 @@ This module adds Paste_ templates for bootstrapping your modules.
 Install
 =======
 
-No release available yet so you must install it 'manually'.
+pip install openerp_pastertemplates
 
-Clone this repo, cd into it and launch::
+Issues and contribs
+===================
 
-    python setup.py install
+https://github.com/simahawk/openerp_pastertemplates
 
 
 Usage
