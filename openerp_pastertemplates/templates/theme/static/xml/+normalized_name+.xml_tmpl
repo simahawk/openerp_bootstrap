@@ -2,7 +2,7 @@
 look at web/static/src/xml/base.xml for basic QWeb templates
 -->
 
-/* -- uncomment the following lines to override the login template -- */
+<!-- uncomment the following lines to override the login template -->
 
 <!--
 <t t-name="Login">
