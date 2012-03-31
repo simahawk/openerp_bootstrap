@@ -18,10 +18,10 @@
     'web':True,
     'css': [
         'static/css/'
-    ]
+    ],
     'js': [
         'static/js/'
-    ]
+    ],
     #end if
 }
 
