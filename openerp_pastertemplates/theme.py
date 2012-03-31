@@ -19,7 +19,7 @@ class Theme(templates.Template):
         var('author_email', 'Author email'),
         var('category', 'Category'),
         var('website', 'Website'),
-        var('depends', 'Dependencies [space-separated module names]',default='web'),
+        var('depends', 'Dependencies [space-separated module names]',default=''),
         var('has_css', 'Needs CSS? [yes/no]', default='yes'),    
         var('has_js', 'Needs Javascript? [yes/no]', default='yes'),
         var('has_xml', 'Needs QWeb XML? [yes/no]', default='no'),

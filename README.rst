@@ -25,11 +25,15 @@ List templates::
 
     paster create --list-templates
 
-You should see "openerp_newmodule" among the other templates.
+You should see "openerp_newmodule", "openerp_theme" among the other templates.
 
-To create your module run::
+To create a simple module run::
 
     paster create -t openerp_newmodule
+
+to create a basic theme package run::
+
+    paster create -t openerp_theme
 
 and follow the instructions step by step.
 

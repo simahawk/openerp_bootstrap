@@ -1,0 +1,25 @@
+/* @@@ ${normalized_name} custom CSS @@@ 
+use Firefox's Firebug extension or Chrome's Inspector to find out other CSS ref
+*/
+
+/* -- uncomment the following lines to override the logo -- */
+
+/*
+.openerp .company_logo {
+    background: url("/${normalized_name}/static/img/logo.png") no-repeat scroll 0 0 transparent;
+}
+.openerp .company_logo_link{ border:none !important;}
+*/
+
+/* -- uncomment the following lines to customize main menu colors -- */
+
+/*
+.openerp .menu {
+    background: -moz-linear-gradient(center top , #000 0%, #999 8%, #fff 100%) repeat scroll 0 0 transparent;
+}
+
+.openerp .menu a {
+    border:1px solid #ccc;
+    background: -moz-linear-gradient(center top , #fff 0%, #000 60%) repeat scroll 0 0 transparent;
+}
+*/         

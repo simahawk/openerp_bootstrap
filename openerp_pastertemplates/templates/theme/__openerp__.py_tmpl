@@ -25,6 +25,11 @@
         'static/js/${normalized_name}.js',
     ]
     #end if
+    #if $has_xml
+    'js': [
+        'static/xml/${normalized_name}.xml',
+    ]
+    #end if
     }
 
 }
