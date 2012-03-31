@@ -18,17 +18,17 @@
     #if $has_css
     'css': [
         'static/css/${normalized_name}.css',
-    ]
+    ],
     #end if
     #if $has_js
     'js': [
         'static/js/${normalized_name}.js',
-    ]
+    ],
     #end if
     #if $has_xml
     'js': [
         'static/xml/${normalized_name}.xml',
-    ]
+    ],
     #end if
 }
 
