@@ -23,7 +23,5 @@
         'static/js/'
     ]
     #end if
-    }
-
 }
 

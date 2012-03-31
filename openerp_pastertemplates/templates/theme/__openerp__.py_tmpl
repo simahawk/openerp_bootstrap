@@ -30,7 +30,5 @@
         'static/xml/${normalized_name}.xml',
     ]
     #end if
-    }
-
 }
 
