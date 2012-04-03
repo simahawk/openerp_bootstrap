@@ -30,6 +30,10 @@ class Theme(templates.Template):
         Called before template is applied.
         """
         # import pdb;pdb.set_trace()
+        # TODO: look at templer.core to see how to handle bool vars
+        # and evaluate if we should depend on it
+        for k in ['has_js','has_css','has_xml']:
+            vars[k] = vars[k] == 'yes' and True or False
         depends = vars['depends'].split(' ')
         if not 'web' in depends:
             depends.append('web')

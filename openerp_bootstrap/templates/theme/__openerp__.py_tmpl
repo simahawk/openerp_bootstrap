@@ -26,7 +26,7 @@
     ],
     #end if
     #if $has_xml
-    'js': [
+    'xml': [
         'static/xml/${normalized_name}.xml',
     ],
     #end if
