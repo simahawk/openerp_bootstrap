@@ -32,5 +32,6 @@ setup(name='openerp_pastertemplates',
         # -*- Entry points: -*-
         [paste.paster_create_template]
         openerp_newmodule = openerp_pastertemplates.newmodule:NewModule
+        openerp_theme = openerp_pastertemplates.theme:Theme
         """,
 )
