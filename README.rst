@@ -10,12 +10,12 @@ Install
 
 As simple as::
 
-	pip install openerp_pastertemplates
+	pip install openerp_bootstrap
 
 Issues and contribs
 ===================
 
-https://github.com/simahawk/openerp_pastertemplates
+https://github.com/simahawk/openerp_bootstrap
 
 
 Usage
