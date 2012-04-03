@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+1.0a6
+-----
+
+- CHANGED PACKAGE NAME FROM 'openerp_pastertemplates'
+- set active=False by default
+- added basic openerp web theme template
+
 1.0a5
 -----
 
