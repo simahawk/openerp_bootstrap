@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+1.0a8
+-----
+
+- imp remove static resources that are not required
+- initialize module-specific openerp object into JS
+
 1.0a7
 -----
 
