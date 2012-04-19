@@ -1,3 +1,6 @@
+import os
+import shutil
+
 from paste.script import templates
 from paste.script.templates import var
 
@@ -39,3 +42,16 @@ class Theme(templates.Template):
             depends.append('web')
         vars['depends'] = [x for x in depends if x]
         vars['normalized_name'] = vars['package']
+
+    def post(self, command, output_dir, vars):
+        for i in ('css','js','xml'):
+            if not vars['has_'+i]:
+                # remove it from static             
+                path = os.path.join(output_dir, 'static')
+                try:
+                    rmpath = os.path.join(path, i)
+                    shutil.rmtree(rmpath)
+                    print '%s not required, removed dir %s' % (i,rmpath)
+                except OSError, e:
+                    msg = """WARNING: Error in template rendering:"""
+                    print msg + str(e)
