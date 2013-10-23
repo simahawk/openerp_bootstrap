@@ -5,17 +5,17 @@ from paste.script import templates
 from paste.script.templates import var
 
 
-class Theme(templates.Template):
+class Web(templates.Template):
 
     egg_plugins = ['openerp_theme']
     summary = 'Template for creating a basic openerp theme skeleton'
     required_templates = []
-    _template_dir = 'templates/theme'
+    _template_dir = 'templates/web'
     use_cheetah = True
 
     vars = [
-        var('module_name', 'Module name (like "My Theme")',
-            default='My Theme'),
+        var('module_name', 'Module name (like "My Web module")',
+            default='My Web module'),
         var('description', 'One-line description of the module'),
         var('version', 'Version', default='1.0'),
         var('author', 'Author name'),
@@ -23,7 +23,7 @@ class Theme(templates.Template):
         var('category', 'Category'),
         var('website', 'Website'),
         var('depends', 'Dependencies [space-separated module names]',default=''),
-        var('has_css', 'Needs CSS? [yes/no]', default='yes'),    
+        var('has_css', 'Needs CSS? [yes/no]', default='yes'),
         var('has_js', 'Needs Javascript? [yes/no]', default='yes'),
         var('has_xml', 'Needs QWeb XML? [yes/no]', default='no'),
     ]
@@ -46,7 +46,7 @@ class Theme(templates.Template):
     def post(self, command, output_dir, vars):
         for i in ('css','js','xml'):
             if not vars['has_'+i]:
-                # remove it from static             
+                # remove it from static
                 path = os.path.join(output_dir, 'static')
                 try:
                     rmpath = os.path.join(path, i)

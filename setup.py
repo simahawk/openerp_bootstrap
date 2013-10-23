@@ -32,6 +32,6 @@ setup(name='openerp_bootstrap',
         # -*- Entry points: -*-
         [paste.paster_create_template]
         openerp_newmodule = openerp_bootstrap.newmodule:NewModule
-        openerp_theme = openerp_bootstrap.theme:Theme
+        openerp_webmodule = openerp_bootstrap.web:Web
         """,
 )
