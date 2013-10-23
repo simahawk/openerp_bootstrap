@@ -1,5 +1,5 @@
 //  @@@ ${normalized_name} custom JS @@@
 
-openerp.{normalized_name} = function(openerp) {
+openerp.${normalized_name} = function(openerp) {
     // extend openerp here
 }
