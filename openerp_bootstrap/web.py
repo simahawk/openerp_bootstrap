@@ -7,7 +7,7 @@ from paste.script.templates import var
 
 class Web(templates.Template):
 
-    egg_plugins = ['openerp_theme']
+    egg_plugins = ['openerp_webmodule']
     summary = 'Template for creating a basic openerp theme skeleton'
     required_templates = []
     _template_dir = 'templates/web'

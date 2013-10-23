@@ -21,19 +21,22 @@ https://github.com/simahawk/openerp_bootstrap
 Usage
 =====
 
+.. warning:: Starting from version 1.0b2 the template "openerp_theme" has been renamed to "openerp_webmodule".
+
+
 List templates::
 
     paster create --list-templates
 
-You should see "openerp_newmodule", "openerp_theme" among the other templates.
+You should see "openerp_newmodule", "openerp_webmodule" among the other templates.
 
 To create a simple module run::
 
     paster create -t openerp_newmodule
 
-to create a basic theme package run::
+to create a basic web package run::
 
-    paster create -t openerp_theme
+    paster create -t openerp_webmodule
 
 and follow the instructions step by step.
 

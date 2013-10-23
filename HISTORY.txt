@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+1.0b2
+-----
+
+- renamed "openerp_theme" to "openerp_webmodule"
+
 1.0b1
 -----
 
