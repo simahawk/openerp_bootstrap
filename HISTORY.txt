@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+1.0b3
+-----
+
+- add MANIFEST.in to fix release
+
 1.0b2
 -----
 
